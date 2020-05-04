@@ -1,0 +1,18 @@
+body{
+    background-image: url(../images/sky.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding-top: 50px;
+    padding-left: 550px;
+}
+.welcome{
+    padding-top: 120px;
+    padding-left: 400px;
+}

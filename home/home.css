@@ -1,3 +1,8 @@
+body{
+    background-image: url(../images/nine-kopfer-fYTSQ7B8Q8Y-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -17,12 +22,6 @@ h1{
     margin-left: 150px;
     color: black;
     font-family:'Gill Sans MT';
-}
-body{
-    background-image: url(../images/nine-kopfer-fYTSQ7B8Q8Y-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  
 }
 h2{
     color: rgb(180, 4, 4);
