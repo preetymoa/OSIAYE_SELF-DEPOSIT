@@ -10,7 +10,7 @@
 }
 h1{
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 45px;
     margin-top: 50px;
     margin-left: 40px;
     color: red;
@@ -22,8 +22,21 @@ body{
     background-size: auto;
 }
 .details{
-    margin-top: 250px;
+    margin-top: 0px;
 }
 .analysis{
     margin-left: 450px;
+}
+.acct_details{
+    margin-top: 100px;
+}
+.index{
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+}
+.equality{
+    height: 50px;
+    width: 50px;
+    float: right;
 }
