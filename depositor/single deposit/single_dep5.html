@@ -59,18 +59,28 @@
         </tbody>
       </table>
 
-      <div class="btn-group dropright">
-        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Submit to complete process 
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+          Submit to complete process
         </button>
-        <div class="dropdown-menu">
-            <p class="text"  >
-                Thank you for banking with us.
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Thank you for banking with us</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
                 Your Transaction is being processed 
                 You would receive an alert shortly
-            </p>
+              </div>
+              <div class="modal-footer">
+                <a href="C:\Users\HP USER\Desktop\osiaye\subb\self-deposit app\index.html" class="btn btn-primary active" role="button" aria-pressed="true">End</a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
     </div>
      
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
